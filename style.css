@@ -1,0 +1,121 @@
+        * {
+        font-family: 'Fira Sans', sans-serif;
+        box-sizing: border-box;
+    }
+    /*   <!-- navbar starts from here--> */
+    
+    body {
+        margin: 0;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    
+    a {
+        color: white;
+        font-size: 1.2rem;
+        text-decoration: none;
+    }
+    
+    p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    [class*="col-"] {
+        float: left;
+        padding: 10px;
+    }
+    /* for mobile */
+    
+    [class*="col-"] {
+        width: 100%;
+    }
+    
+    .navbar {
+        background-color: rgb(17, 110, 110);
+        padding: 1% 7%;
+        text-align: center;
+    }
+    
+    .navbar h3 {
+        color: white;
+        margin: 0;
+        padding-top: 10px;
+    }
+    
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        text-transform: uppercase;
+    }
+    
+    .nav-menu a {
+        background-color: rgb(61, 88, 163);
+        border-radius: 10px;
+        margin: 7px 10px;
+        padding: 10px;
+    }
+    
+    .nav-menu a:hover {
+        background-color: gray;
+    }
+    
+    .navbar::after {
+        clear: both;
+        display: table;
+        content: '';
+    }
+    /*   <!-- navbar ends from here--> */
+    /* Profile starts here */
+    
+    .profile {
+        padding: 130px 10px;
+        position: relative;
+        text-align: center;
+    }
+    
+    .profile .top-weather-icon {
+        position: absolute;
+        right: 60px;
+        top: 20px;
+        transition: transform 2s;
+    }
+    
+    .profile .top-weather-icon:hover {
+        transform: rotate(360deg);
+    }
+    
+    .profile-desc h1 {
+        font-family: 'Satisfy', cursive;
+        font-size: 3rem;
+    }
+    
+    .profile-desc p {
+        color: gray;
+        text-align: center;
+        width: 90%;
+        margin: 0px auto 20px auto;
+    }
+    
+    .profile .bottom-weather-icon {
+        position: absolute;
+        left: 60px;
+        bottom: 10px;
+        transition: transform 2s;
+    }
+    
+    .profile .bottom-weather-icon:hover {
+        transform: rotate(360deg);
+        .profile::after {}
+        .profile::after {
+            display: table;
+            content: '';
+            clear: both;
+        }
+        /* Profile ends here */
+        /* <!-- about me starts here --> */
+        
+        /* <!-- about me endss here --> */
